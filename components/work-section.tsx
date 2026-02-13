@@ -15,51 +15,39 @@ gsap.registerPlugin(ScrollTrigger)
 /** Your solution steps. "span" controls grid cell size (e.g. col-span-2 row-span-2 for a big card). */
 const experiments = [
   {
-    title: "Project Posted",
+    title: "Paste Your Messages",
     medium: "Step 1",
-    description: "Experienced developers publish real-world project ideas with clear objectives.",
+    description: "Upload 15–20 of your real text messages so the AI can learn how you communicate.",
     span: "col-span-2 row-span-2",
   },
   {
-    title: "Learner Joins",
+    title: "Style Analysis",
     medium: "Step 2",
-    description: "Students enroll in a project based on their interest and skill level.",
+    description: "AI extracts your patterns: emoji habits, sentence length, punctuation, tone, and formality level.",
     span: "col-span-1 row-span-1",
   },
   {
-    title: "Learning Path Assigned",
+    title: "Enable Autopilot",
     medium: "Step 3",
-    description: "A structured roadmap is provided to guide what needs to be learned and built.",
+    description: "Toggle autopilot on and the AI begins responding to incoming messages as you in real-time.",
     span: "col-span-1 row-span-2",
   },
   {
-    title: "Project Development",
+    title: "Live Conversation",
     medium: "Step 4",
-    description: "Learners work on tasks by writing and implementing code themselves.",
+    description: "AI handles incoming messages matching your unique communication style perfectly.",
     span: "col-span-1 row-span-1",
   },
   {
-    title: "Guidance & Review",
+    title: "Smart Escalation",
     medium: "Step 5",
-    description: "Seniors review progress and provide direction where required.",
+    description: "AI detects serious or emotional topics, pauses, and alerts you with a confidence score.",
     span: "col-span-2 row-span-1",
   },
   {
-    title: "Skill Validation",
+    title: "Conversation Summary",
     medium: "Step 6",
-    description: "Skills are evaluated based on actual project contributions.",
-    span: "col-span-1 row-span-1",
-  },
-  {
-    title: "Portfolio Creation",
-    medium: "Step 7",
-    description: "Completed work is added as verified project experience.",
-    span: "col-span-1 row-span-1",
-  },
-  {
-    title: "Growth & Opportunities",
-    medium: "Step 8",
-    description: "Skilled users unlock advanced projects and career opportunities.",
+    description: "Review full transcripts, commitments made, action items, and key topics discussed.",
     span: "col-span-1 row-span-1",
   },
 ]
@@ -130,7 +118,7 @@ export function WorkSection() {
 
     const cycleSteps = () => {
       if (!isActive) return
-      
+
       if (currentStep < experiments.length) {
         // Highlight current step
         setHighlightedStep(currentStep)
@@ -200,7 +188,7 @@ export function WorkSection() {
           </h2>
         </div>
         <p className="hidden md:block max-w-xs font-mono text-xs text-muted-foreground text-right leading-relaxed">
-          after 12 hours of intense thoughtprocess
+          your intelligent texting assistant
         </p>
       </div>
 

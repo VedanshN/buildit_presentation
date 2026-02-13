@@ -22,51 +22,51 @@ export function PrinciplesSection() {
     {
       number: "01",
       titleParts: [
-        { text: "MVP 1: Project-Based ", highlight: false },
-        { text: "LEARNING", highlight: true },
-        { text: " Core", highlight: false },
+        { text: "MVP 1: Style ", highlight: false },
+        { text: "TRAINING", highlight: true },
+        { text: " Engine", highlight: false },
       ],
-      description: "Project listing by mentors • Student project enrollment • Basic task structure • GitHub-based submissions • Manual review & feedback",
+      description: "Paste 15\u201320 messages \u2022 Sentence structure analysis \u2022 Emoji & punctuation profiling \u2022 Tone & formality detection",
       align: "left",
     },
     {
       number: "02",
       titleParts: [
         { text: "MVP 2: ", highlight: false },
-        { text: "MENTORSHIP", highlight: true },
-        { text: " & Progress Tracking", highlight: false },
+        { text: "AUTOPILOT", highlight: true },
+        { text: " Mode", highlight: false },
       ],
-      description: "Mentor–student assignment • Weekly progress check-ins • Simple skill tagging • Completion status tracking",
+      description: "Real-time AI responses \u2022 Toggle on/off anytime \u2022 Manual takeover \u2022 Style-matched replies",
       align: "right",
     },
     {
       number: "03",
       titleParts: [
-        { text: "MVP 3: ", highlight: false },
-        { text: "PORTFOLIO", highlight: true },
-        { text: " Generation", highlight: false },
+        { text: "MVP 3: Smart ", highlight: false },
+        { text: "ESCALATION", highlight: true },
+        { text: " Detection", highlight: false },
       ],
-      description: "Auto-generated project portfolio • Tech stack display • Contribution summary • Shareable profile link",
+      description: "Serious topic flagging \u2022 Confidence scoring \u2022 Pause & alert system \u2022 Personal response handoff",
       align: "left",
     },
     {
       number: "04",
       titleParts: [
-        { text: "MVP 4: ", highlight: false },
-        { text: "RECRUITER", highlight: true },
-        { text: " View (Lite Version)", highlight: false },
+        { text: "MVP 4: Conversation ", highlight: false },
+        { text: "SUMMARIES", highlight: true },
+        { text: "", highlight: false },
       ],
-      description: "View verified projects • Skill-based filtering • Contact / shortlist option",
+      description: "Full session transcripts \u2022 Commitments tracking \u2022 Action items \u2022 Key topics overview",
       align: "right",
     },
     {
       number: "05",
       titleParts: [
         { text: "MVP 5: ", highlight: false },
-        { text: "MONETIZATION", highlight: true },
-        { text: " Layer", highlight: false },
+        { text: "DEMO", highlight: true },
+        { text: " Simulation", highlight: false },
       ],
-      description: "Project-based enrollment fee • Mentor payout system • Basic admin controls",
+      description: "Friend-mode texting simulator \u2022 Side-by-side comparison \u2022 Live pitch capability",
       align: "left",
     },
   ]
@@ -127,9 +127,8 @@ export function PrinciplesSection() {
         {mvps.map((mvp, index) => (
           <article
             key={index}
-            className={`flex flex-col ${
-              mvp.align === "right" ? "items-end text-right" : "items-start text-left"
-            }`}
+            className={`flex flex-col ${mvp.align === "right" ? "items-end text-right" : "items-start text-left"
+              }`}
           >
             {/* Annotation label — e.g. "01 / MVP". */}
             <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-muted-foreground mb-4">

@@ -15,33 +15,33 @@ gsap.registerPlugin(ScrollTrigger)
 const signals = [
   {
     date: "",
-    title: "Learning Without Doing",
-    note: "Students watch hours of tutorials but freeze the moment they have to build something on their own.",
+    title: "Constant Interruptions",
+    note: "Messages demand immediate replies even during deep work, meetings, or personal time—breaking your flow every few minutes.",
   },
   {
     date: "",
-    title: "Tutorial Hell Is the New Degree",
-    note: "Most learners collect courses instead of skills, mistaking progress for productivity.",
+    title: "Context-Switching Kills Productivity",
+    note: "Every quick reply costs roughly 23 minutes of refocus time, turning a 5-second text into a major productivity drain.",
   },
   {
     date: "",
-    title: "Resumes Lie, Code Doesn't",
-    note: "Anyone can write \"proficient in X,\" but very few can actually prove it.",
+    title: "Missed Messages Strain Relationships",
+    note: "Ignoring texts—even when you're genuinely busy—leads to tension and misunderstandings with friends and colleagues.",
   },
   {
     date: "",
-    title: "Mentorship Is Either Missing or Useless",
-    note: "Students either get no guidance or get spoon-fed without real learning.",
+    title: "Generic Auto-Replies Feel Robotic",
+    note: "Canned 'I'm busy' messages don't sound like you, feel impersonal, and often create more confusion than they solve.",
   },
   {
     date: "",
-    title: "Hiring Is a Guessing Game",
-    note: "Companies are forced to trust resumes and interviews instead of real work.",
+    title: "No Way to Delegate Casual Texting",
+    note: "You can delegate emails and schedule meetings, but no tool handles personal texting in your authentic voice.",
   },
   {
     date: "",
-    title: "Talent Exists, Direction Doesn't",
-    note: "Capable students and graduates have skills—but no clear path to apply or showcase them.",
+    title: "Serious Messages Get Buried",
+    note: "Important or emotional topics can slip through unnoticed when you're overwhelmed by a flood of notifications.",
   },
 ]
 

@@ -89,30 +89,15 @@ export function ColophonSection() {
         <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">CREDITS</h2>
       </div>
 
-      {/* Multi-column layout — Team, Reviewers, Special Thanks. Add more columns or list items as needed. */}
+      {/*  */}
       <div ref={gridRef} className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 md:gap-12">
         {/* Team — replace "joe doe" with your team member names. */}
         <div className="col-span-1">
           <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">Team</h4>
           <ul className="space-y-2">
-            <li className="font-mono text-xs text-foreground/80">joe doe</li>
-          </ul>
-        </div>
-
-        {/* Reviewers (in video) — people who gave feedback in your review video. */}
-        <div className="col-span-1">
-          <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">Reviewers (in video)</h4>
-          <ul className="space-y-2">
-            <li className="font-mono text-xs text-foreground/80">joe doe</li>
-          </ul>
-        </div>
-
-        {/* Special Thanks — mentors, professors, facilitators. */}
-        <div className="col-span-1">
-          <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">SPECIAL THANKS TO</h4>
-          <ul className="space-y-2">
-            <li className="font-mono text-xs text-foreground/80">Professor X</li>
-            <li className="font-mono text-[8px] uppercase tracking-[0.2em] text-muted-foreground/60 mt-2">meet a professor for ideation (mandatory)</li>
+            <li className="font-mono text-xs text-foreground/80">Shivansh Tripathi</li>
+            <li className="font-mono text-xs text-foreground/80">Vedansh Nema</li>
+            <li className="font-mono text-xs text-foreground/80">Krishnav Kanoi</li>
           </ul>
         </div>
       </div>
@@ -136,7 +121,7 @@ export function ColophonSection() {
           rel="noopener noreferrer"
           className="inline-block font-mono text-sm text-foreground hover:text-accent transition-colors duration-200 border border-border/40 px-6 py-3 hover:border-accent"
         >
-          add a form in this button.
+          GIVE US FEEDBACK
         </a>
       </div>
     </section>

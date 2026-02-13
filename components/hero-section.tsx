@@ -83,12 +83,12 @@ export function HeroSection() {
 
         {/* Tagline — change this to match your project. */}
         <h2 className="font-[var(--font-bebas)] text-muted-foreground/60 text-[clamp(1rem,3vw,2rem)] mt-4 tracking-wide">
-          BUILD SKILLS. BUILD PROJECTS. BUILD PROOF.
+          AI THAT TEXTS LIKE YOU WHEN YOU&apos;RE BUSY.
         </h2>
 
-        {/* Short description. Replace with your own pitch. */}
+        {/* Short description */}
         <p className="mt-12 max-w-lg font-mono text-sm text-muted-foreground leading-relaxed text-justify">
-          This is the template where you need to tinker around, change texts as per your project. Problems, solution, project review video, MVP (at least 4), revenue model if any, credits, then add a feedback form. Fix errors for extra points.
+          Conversation Autopilot learns your unique texting style by analyzing your past messages—emoji habits, sentence structure, tone—and responds on your behalf. It knows when to hand off serious conversations and keeps you informed with summaries of everything it handled.
         </p>
 
         {/* Buttons: #signals scrolls to the Problems section on the same page; /lean-canvas is another route. */}
@@ -122,7 +122,7 @@ export function HeroSection() {
       {/* Floating info tag — event name / label, you can change the text. */}
       <div className="absolute bottom-8 right-8 md:bottom-12 md:right-12">
         <div className="border border-border px-4 py-2 font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
-          PITCH DECK SAMPLE | FANTASTIC 4 KICKOFF
+          CONVERSATION AUTOPILOT | FANTASTIC 4 KICKOFF
         </div>
       </div>
     </section>

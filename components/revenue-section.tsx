@@ -15,20 +15,20 @@ gsap.registerPlugin(ScrollTrigger)
 /** Your revenue ideas. Each item becomes one card in the horizontal scroll. */
 const revenueModels = [
   {
-    title: "Project-Based Commission",
-    description: "The platform earns a commission from the project enrollment fee paid by learners.",
+    title: "Freemium Model",
+    description: "Free tier with limited autopilot minutes per month. Upgrade for unlimited usage, multi-profile support, and priority response generation.",
   },
   {
-    title: "Pro Subscription (AI-Powered Features)",
-    description: "Users can upgrade to a premium plan to access AI-assisted learning tools, code insights, and progress analytics.",
+    title: "Premium Subscription",
+    description: "Monthly or annual plan unlocking advanced features: multiple contact profiles, calendar integration, conversation analytics, and priority AI processing.",
   },
   {
-    title: "Paid Mentorship Support",
-    description: "Learners can opt for additional one-on-one or on-demand mentor assistance for specific technical challenges.",
+    title: "API & B2B Licensing",
+    description: "License the style-matching engine to messaging platforms, customer support tools, and enterprise communication apps for large-scale deployment.",
   },
   {
-    title: "Micro-Revenue Streams",
-    description: "Small-value earnings generated through add-ons such as certifications, advanced project access, and premium learning tools.",
+    title: "Browser Extension Marketplace",
+    description: "Paid browser extension for WhatsApp, iMessage, and Slack integration with per-platform pricing and seamless cross-platform autopilot.",
   },
 ]
 

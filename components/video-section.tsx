@@ -68,7 +68,7 @@ export function VideoSection() {
       {/* Instructional text — you can change or remove this. */}
       <div className="mb-10 pr-6 md:pr-12 max-w-3xl">
         <p className="font-mono text-sm text-muted-foreground leading-relaxed">
-          Make a video asking review of your project—how it is helpful to your customer who could use it, or in general to your friends. Take feedbacks and add it in your video.
+          Make a video demonstrating Conversation Autopilot in action—show how it learns your texting style, responds to messages, and flags serious topics. Capture real feedback from friends or teammates.
         </p>
       </div>
 

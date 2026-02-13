@@ -18,9 +18,9 @@ const ibmPlexMono = IBM_Plex_Mono({
 const bebasNeue = Bebas_Neue({ weight: "400", subsets: ["latin"], variable: "--font-bebas" })
 
 export const metadata: Metadata = {
-  title: "BUILDIT — Build Skills. Build Projects. Build Proof.",
+  title: "Conversation Autopilot — AI That Texts Like You When You're Busy",
   description:
-    "Template: tinker and change texts as per your project. Includes problems, solution, project review video, MVP (at least 4), revenue model, credits, and feedback form.",
+    "Conversation Autopilot learns your unique texting style and responds to messages on your behalf. It captures your communication patterns—from emoji usage to sentence structure—and generates responses that sound authentically like you.",
 }
 
 export default function RootLayout({
